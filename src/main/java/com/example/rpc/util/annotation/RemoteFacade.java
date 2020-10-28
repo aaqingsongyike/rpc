@@ -1,0 +1,1 @@
+package com.example.rpc.util.annotation;import java.lang.annotation.*;@Target({ElementType.TYPE})@Retention(RetentionPolicy.RUNTIME)@Inheritedpublic @interface RemoteFacade {    String value() default "";    String domain() default "";}

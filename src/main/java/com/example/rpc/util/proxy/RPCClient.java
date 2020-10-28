@@ -1,0 +1,1 @@
+package com.example.rpc.util.proxy;import org.aopalliance.intercept.MethodInvocation;public interface RPCClient {    Object getRPCClient(MethodInvocation invocation) throws Throwable;}
