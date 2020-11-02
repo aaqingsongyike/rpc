@@ -1,1 +1,0 @@
-package com.example.rpc.controller;import com.example.rpc.service.StudentService;import org.springframework.stereotype.Component;import java.util.Map;//@Componentpublic class StudentServiceImpl {    public String fallConfigOfRemote() {        System.out.println("备选方案...");        return "备用";    }}
