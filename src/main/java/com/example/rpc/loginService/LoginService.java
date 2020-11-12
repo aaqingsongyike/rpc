@@ -1,1 +1,0 @@
-package com.example.rpc.loginService;import java.util.Map;public interface LoginService {    String login(Map<String, String> map);}
